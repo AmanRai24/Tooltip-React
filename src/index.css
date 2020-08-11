@@ -17,3 +17,128 @@ code {
 .App {
   text-align: center;
 }
+
+#title{
+  margin: 0;
+  background-color: black;
+  color: lightblue;
+}
+
+.select{
+  margin-top:150px;
+  left:47%;
+}
+
+#direction{
+  height: 25px;
+  width: 100px;
+  background-color: gray;
+  color: white;
+}
+
+ /* Tooltip Styling */
+.button{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  cursor: pointer;
+  background-color:black;
+  color: white;
+  left: 50%;
+  width:200px;
+  height:50px;
+  margin:auto;
+  margin-top:100px;
+}
+
+.dir-bottom {
+  position: relative;
+  background-color: white;
+  color: black;
+  width: 70px;
+  height: 20px;
+  border-radius:2px;
+  padding: 20px;
+  top:15px;
+  margin:auto;
+}
+
+.dir-top {
+  position: relative;
+  background-color: white;
+  color: black;
+  width: 70px;
+  height: 20px;
+  border-radius:2px;
+  padding: 20px;
+  top:-125px;
+  margin:auto;
+}
+
+.dir-right {
+  position: absolute;
+  background-color: white;
+  color: black;
+  width: 80px;
+  height: 20px;
+  border-radius:2px;
+  padding: 20px;
+  top:305px;
+  right:450px;
+}
+
+.dir-left {
+  position: absolute;
+  background-color: white;
+  color: black;
+  width: 80px;
+  height: 20px;
+  border-radius:2px;
+  padding: 20px;
+  top:305px;
+  left:450px;
+}
+
+.arrowdir-bottom:after {
+  content: "";
+  position: absolute;
+  right: 40px;
+  top: -10px;
+  border-top: none;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-bottom: 10px solid white;
+}
+
+.arrowdir-left:after {
+  content: " ";
+  position: absolute;
+  right: -10px;
+  top: 25px;
+  border-top: 10px solid transparent;
+  border-right: none;
+  border-left: 10px solid white;
+  border-bottom: 10px solid transparent;
+}
+
+.arrowdir-top:after {
+  content: " ";
+  position: absolute;
+  right: 40px;
+  bottom: -10px;
+  border-top: 10px solid white;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-bottom: none;
+}
+
+.arrowdir-right:after {
+  content: " ";
+  position: absolute;
+  left: -10px;
+  top: 25px;
+  border-top: 10px solid transparent;
+  border-right: 10px solid white;
+  border-left: none;
+  border-bottom: 10px solid transparent;
+}

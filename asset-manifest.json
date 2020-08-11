@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Tooltip-React/static/css/main.275cc208.chunk.css",
+    "main.js": "/Tooltip-React/static/js/main.16deaae2.chunk.js",
+    "main.js.map": "/Tooltip-React/static/js/main.16deaae2.chunk.js.map",
+    "runtime-main.js": "/Tooltip-React/static/js/runtime-main.44eb4a9f.js",
+    "runtime-main.js.map": "/Tooltip-React/static/js/runtime-main.44eb4a9f.js.map",
+    "static/js/2.0e2e7a76.chunk.js": "/Tooltip-React/static/js/2.0e2e7a76.chunk.js",
+    "static/js/2.0e2e7a76.chunk.js.map": "/Tooltip-React/static/js/2.0e2e7a76.chunk.js.map",
+    "index.html": "/Tooltip-React/index.html",
+    "precache-manifest.04ecdebfc907cb54bb5391b811a1edbb.js": "/Tooltip-React/precache-manifest.04ecdebfc907cb54bb5391b811a1edbb.js",
+    "service-worker.js": "/Tooltip-React/service-worker.js",
+    "static/css/main.275cc208.chunk.css.map": "/Tooltip-React/static/css/main.275cc208.chunk.css.map",
+    "static/js/2.0e2e7a76.chunk.js.LICENSE.txt": "/Tooltip-React/static/js/2.0e2e7a76.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.44eb4a9f.js",
+    "static/js/2.0e2e7a76.chunk.js",
+    "static/css/main.275cc208.chunk.css",
+    "static/js/main.16deaae2.chunk.js"
+  ]
+}
